@@ -44,9 +44,9 @@ public class Main {
                 Font textFont = new Font();
 
                 try {
-                    dtexture.loadFromFile(Paths.get("E://NikSFML//Dragon.png"));
-                    mtexture.loadFromFile(Paths.get("E://NikSFML//Monster.png"));
-                    textFont.loadFromFile(Paths.get("E://NikSFML//FreeMono.ttf"));
+                    dtexture.loadFromFile(Paths.get("Dragon.png"));
+                    mtexture.loadFromFile(Paths.get("Monster.png"));
+                    textFont.loadFromFile(Paths.get("FreeMono.ttf"));
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
